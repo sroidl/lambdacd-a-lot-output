@@ -30,7 +30,6 @@
     (runners/start-new-run-after-first-step-finished pipeline)
 
     ;; start the webserver to serve the UI
-
     (ring-server/serve app {:open-browser? false
-                            :port          8080})))
-
+                            :port          8080})
+    ))

@@ -6,16 +6,31 @@
 
 (def pipeline-def
   `(
+     ;manualtrigger/wait-for-manual-trigger
      (in-parallel
-       print-1000-lines-at-once
-       print-1000-lines-at-once
-       print-1000-lines-at-once
-       print-1000-lines-at-once
-       )
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj)
+
      (in-parallel
-       print-1000-lines-at-once
-       print-1000-lines-at-once
-       print-1000-lines-at-once
-       print-1000-lines-at-once)
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj
+       print-1000-lines-in-clj)
      ))
 
