@@ -1,7 +1,7 @@
 (defproject deadlock-pipeline "0.1.0-SNAPSHOT"
             :description "A lot step updates in parallel"
             :url "http://example.com/FIXME"
-            :dependencies [[lambdacd "0.11.0"]
+            :dependencies [[lambdacd "0.9.3"]
                            [ring-server "0.3.1"]
                            [org.clojure/clojure "1.7.0"]
                            [org.clojure/tools.logging "0.3.0"]
