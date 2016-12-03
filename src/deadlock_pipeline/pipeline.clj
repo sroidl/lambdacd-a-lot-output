@@ -6,6 +6,16 @@
 
 (def pipeline-def
   `(
-     print-1000-lines-at-once
-     print-1000-lines-with-delay
+     (in-parallel
+       print-1000-lines-at-once
+       print-1000-lines-at-once
+       print-1000-lines-at-once
+       print-1000-lines-at-once
+       )
+     (in-parallel
+       print-1000-lines-at-once
+       print-1000-lines-at-once
+       print-1000-lines-at-once
+       print-1000-lines-at-once)
      ))
+

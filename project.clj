@@ -1,5 +1,5 @@
 (defproject deadlock-pipeline "0.1.0-SNAPSHOT"
-            :description "FIXME: write description"
+            :description "A lot step updates in parallel"
             :url "http://example.com/FIXME"
             :dependencies [[lambdacd "0.11.0"]
                            [ring-server "0.3.1"]
